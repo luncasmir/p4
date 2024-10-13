@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: aqua;
+}
+#circulo{
+    width:256px;
+    height: 256px;
+    border-radius: 256px;
+    background-color: #3EADC1;
+}
+#rectagulo{
+    width: 256px;
+    height: 256px;
+    background-color: #E18731;
+}
+#rectangulo_alargado{
+    width: 100%;
+    height: 256px;
+    background-color: black;
+}
+#triangulo{
+    width: 0;
+    height: 0;
+    border-left: 256px solid transparent;
+    border-right: 256px solid transparent;
+    border-bottom: 256px solid black;
+}
+#elipse{
+    width: 400px;
+    height: 256px;
+    border-radius: 600px;
+    background-color: blue;
+}
